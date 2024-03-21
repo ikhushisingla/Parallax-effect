@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .animation, .animation_layer {
 	height: 1000px;
 }
